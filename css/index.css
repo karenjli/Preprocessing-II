@@ -190,6 +190,9 @@ header {
     flex-direction: column;
   }
 }
+.head h1 {
+  text-shadow: 3px 3px #C0C0C0;
+}
 .head nav {
   padding: 20px;
 }
@@ -309,6 +312,9 @@ header {
     width: 85%;
     margin: 10px 5%;
   }
+}
+.content-pick .destination h4 {
+  text-shadow: 3px 3px #17A2B8;
 }
 .content-pick .destination .btn {
   padding: 15px 25px;
