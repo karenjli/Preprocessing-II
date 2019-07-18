@@ -136,6 +136,12 @@ html,
 body {
   font-family: 'Roboto', sans-serif;
 }
+@media (max-width:500px) {
+  html,
+  body {
+    margin: 1% 2%;
+  }
+}
 h1,
 h2,
 h3,
@@ -179,8 +185,21 @@ header {
   align-items: center;
   margin: 10px 0;
 }
+@media (max-width:500px) {
+  .head {
+    flex-direction: column;
+  }
+}
 .head nav {
   padding: 20px;
+}
+@media (max-width:500px) {
+  .head nav {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 .head a {
   margin: 10px;
