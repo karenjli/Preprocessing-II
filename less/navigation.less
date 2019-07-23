@@ -1,1 +1,44 @@
 // Navigation Styles here
+
+header {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+
+    @media @mobile {
+        flex-direction: column;
+    }
+
+    h1 {
+        .shadow (#C0C0C0);
+    }
+
+    nav {
+        padding: 20px;
+
+    @media @mobile {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        }
+    }
+
+    a {
+        margin: 10px;
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: @shark;
+
+
+    }
+
+    
+}
+
